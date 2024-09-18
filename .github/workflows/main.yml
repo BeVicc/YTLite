@@ -3,8 +3,7 @@ name: Create YouTube Plus app
 on:
   workflow_dispatch:
     inputs:
-      ipa_url:
-        description: "The direct URL to the decrypted IPA file"
+      ipa_url:https://1drv.ms/u/c/58c128978c1435ce/Ecqhq0B5dXdKn2NAhlO6hJ8Bw09MqkHNyFxxurzeTa1qiA?e=T3JfPq        description: "The direct URL to the decrypted IPA file"
         default: ""
         required: true
         type: string
